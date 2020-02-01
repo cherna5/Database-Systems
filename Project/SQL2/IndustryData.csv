@@ -1,0 +1,66 @@
+Employee Table
+Employee_ID,Employee_Fname,Employee_Lname,Employee_HireDate,Employee_Title
+2345,Brian,Oates,2/14/99,DBA
+3373,Franklin,Johnson,3/15/06,Purchasing Agent
+4893,Patricia,Richards,6/11/08,DBA
+6234,Jasmine,Patel,8/10/09,Programmer
+8273,Marco,Bienz,7/28/10,Analyst
+9002,Wade,Gather,5/20/14,Clerk
+9283,Juan,Chavez,7/4/14,Clerk
+9382,Susan,Mathis,8/2/14,Database Programmer
+13383,Raymond,Matthews,3/12/16,Programmer
+
+Skill Table
+Skill_ID,Skill_Name,Skill_Description
+100,Basic Database Management,Create and manage database user accounts
+110,Basic Web Design,Create and maintain HTML and CSS documents
+120,Advanced Spreadsheets,"Use of advanced functions, user-defined functions, and macroning"
+130,Basic Process Modeling,Create core business process models using standard libraries
+140,Basic Database Design,Create simple data models
+150,Master Database Programming,Create integrated trigger and procedure packages for a distributed environment
+160,Basic Spreadsheets,Create single tab worksheets with basic formulas
+170,Basic C# Programming,Create single-tier data aware modules
+180,Advanced Database Management,Manage Database Server Clusters
+190, Advanced Process Modeling,Evaluate and Redesign  cross-functional and external business processes
+200,Advanced C# Programming,Create multi-tier applications using multi-threading
+210,Basic Database Manipulation,Create simple data retrieval and manipulation statements in SQL
+220,Advanced Database Manipulation,"Use of advanced data manipulations methods for multi-table inserts, sets operations and correlated subqueries."
+
+
+Certified Table
+Employee_ID,Skill_ID,Certified_Date
+2345,100,2/14/04
+2345,110,8/9/05
+2345,180,2/14/07
+3373,120,6/20/13
+4893,180,6/11/08
+4893,220,9/20/14
+6234,110,8/10/09
+6234,200,8/10/09
+6234,210,1/29/14
+8273,110,3/8/11
+8273,190,8/19/14
+9002,110,5/16/15
+9002,120,5/16/15
+9382,140,8/2/14
+9382,210,8/2/14
+9382,220,5/1/15
+13383,170,3/12/16
+
+PositionRequirements Table
+Employee_Title,Skill_ID
+Clerk,100
+Programmer,110
+Programmer,130
+Programmer,170
+Analyst,120
+Analyst,130
+Analyst,160
+Analyst,140
+Purchasing Agent,160
+Database Programmer,140
+Database Programmer,210
+Database Programmer,100
+Database Programmer,220
+DBA,180
+DBA,150

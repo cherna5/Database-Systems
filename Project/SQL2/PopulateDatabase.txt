@@ -1,0 +1,20 @@
+EITHER 
+
+mysql
+CREATE DATABASE University;
+exit
+mysql University < DDL-MySQL.sql;
+mysql University < largeRelationsInsertFile.sql
+
+OR
+
+mysql
+CREATE DATABASE University;
+USE University;
+SOURCE DDL-MySQL.sql;
+SOURCE largeRelationsInsertFile.sql;
+
+
+Use
+sed "s/\\\040/ /g" < ~/.mysql_history > record.txt
+to make a record of the history of commands you used in MySQL CLI

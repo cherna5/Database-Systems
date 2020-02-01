@@ -1,0 +1,14 @@
+Skill_ID,Skill_Name,Skill_Description
+100,Basic Database Management,Create and manage database user accounts
+110,Basic Web Design,Create and maintain HTML and CSS documents
+120,Advanced Spreadsheets,"Use of advanced functions, user-defined functions, and macroning"
+130,Basic Process Modeling,Create core business process models using standard libraries
+140,Basic Database Design,Create simple data models
+150,Master Database Programming,Create integrated trigger and procedure packages for a distributed environment
+160,Basic Spreadsheets,Create single tab worksheets with basic formulas
+170,Basic C# Programming,Create single-tier data aware modules
+180,Advanced Database Management,Manage Database Server Clusters
+190, Advanced Process Modeling,Evaluate and Redesign  cross-functional and external business processes
+200,Advanced C# Programming,Create multi-tier applications using multi-threading
+210,Basic Database Manipulation,Create simple data retrieval and manipulation statements in SQL
+220,Advanced Database Manipulation,"Use of advanced data manipulations methods for multi-table inserts, sets operations and correlated subqueries."

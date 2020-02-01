@@ -1,0 +1,1 @@
+ERROR 1064 (42000) at line 7: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRODUCT prc_cust_add(IN P_CODE varchar(10), IN P_DESCRIPT varchar(35), IN V_CODE' at line 1
